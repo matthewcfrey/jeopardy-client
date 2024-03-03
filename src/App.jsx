@@ -16,8 +16,8 @@ function App() {
   return (
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route index key='single' element={<Jeopardy cats={cats} vals={vals}/>} />
-          <Route path='double' key='double' element={<DoubleJeopardy />} />
+          <Route index  element={<Jeopardy cats={cats} vals={vals}/>} />
+          <Route path='double' element={<DoubleJeopardy />} />
           <Route path='create' element={<Create />} />
           <Route path='view' element={<ViewCategories />} />
         </Route>

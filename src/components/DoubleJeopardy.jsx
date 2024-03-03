@@ -1,5 +1,6 @@
 import Jeopardy from "./Jeopardy";
 
+//doing this to force component reload for routes
 const DoubleJeopardy = props => {
 
     const dcats = ['HISTORY', 'TAINTED GOV', 'AMERICAN NICKNAMES', 'DOWN MEXICO WAY', 'SCOTLAND', 'SCIENCE & NATURE']
