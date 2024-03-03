@@ -3,10 +3,10 @@ import {useState, useEffect} from 'react'
 import CategoryCard from "./PlayComponents/CategoryCard.jsx"
 import AnswerRow from './PlayComponents/AnswerRow.jsx'
 
-const Jeopardy = props => {
+const DoubleJeopardy = props => {
 
-    const cats = ['HISTORY', 'RADIO DISNEY', 'GENERAL SCIENCE', 'INTERNATIONAL SPORTSMEN', 'RHYMES WITH SMART', 'HOMOPHONIC PAIRS']
-    const vals = ['$200', '$400', '$600', '$800', '$1000']
+    const cats = ['HISTORY', 'TAINTED GOV', 'AMERICAN NICKNAMES', 'DOWN MEXICO WAY', 'SCOTLAND', 'SCIENCE & NATURE']
+    const vals = ['$400', '$800', '$1200', '$1600', '$2000']
 
     const [cat1, setCat1] = useState([])
     const [cat2, setCat2] = useState([])
@@ -66,4 +66,4 @@ const Jeopardy = props => {
     )
 }
 
-export default Jeopardy
+export default DoubleJeopardy
