@@ -19,7 +19,7 @@ const Create = props => {
         document.getElementById('answer').value = ''
         document.getElementById('show_number').value = ''
 
-        fetch('http://localhost:8080/api/create/answer/', {
+        fetch(import.meta.env.VITE_CREATE_API, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
