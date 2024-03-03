@@ -3,10 +3,7 @@ import {useState, useEffect} from 'react'
 import CategoryCard from "./PlayComponents/CategoryCard.jsx"
 import AnswerRow from './PlayComponents/AnswerRow.jsx'
 
-const Jeopardy = props => {
-
-    const cats = ['HISTORY', 'RADIO DISNEY', 'GENERAL SCIENCE', 'INTERNATIONAL SPORTSMEN', 'RHYMES WITH SMART', 'HOMOPHONIC PAIRS']
-    const vals = ['$200', '$400', '$600', '$800', '$1000']
+const Jeopardy = ({cats, vals}) => {
 
     const [cat1, setCat1] = useState([])
     const [cat2, setCat2] = useState([])
